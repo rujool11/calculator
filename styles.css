@@ -15,12 +15,38 @@ body {
     gap: 3%;
 }
 
+.current, .previous {
+    background-color: whitesmoke;
+    color: darkgreen;
+    text-align: right;
+}
+
+.previous {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.current {
+    font-size: 3em;
+    font-weight: 700;
+    justify-content: baseline;
+}
 
 .display {
     width: 18.5vw;
     padding: 1em;
     border-radius: 2vh;
-    margin: 1em;
+    margin: 0 1em 1em 1em;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    gap: 1%;
+    background-color: whitesmoke;
+    color: darkgreen;
+}
+
+.disp-screen {
+    background-color: whitesmoke;
 }
 
 .container {
@@ -32,7 +58,7 @@ body {
     border: solid;
     border-color: #e2cf69;
     background-color: #e2cf69;
-    border-radius: 1em;
+    border-radius: 5em;
     border-width: 0.5em;
 }
 
