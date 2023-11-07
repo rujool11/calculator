@@ -1,0 +1,77 @@
+* {
+    font-family: monospace;
+    background-color: #5cdb98;
+    color: #05386b;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    flex-basis: auto;
+    gap: 3%;
+}
+
+
+.display {
+    width: 18.5vw;
+    padding: 1em;
+    border-radius: 2vh;
+    margin: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #e2cf69;
+    background-color: #e2cf69;
+    border-radius: 1em;
+    border-width: 0.5em;
+}
+
+.container > div{
+    background-color: #e2cf69;
+}
+.disp-screen > div {
+    display: flex;
+    gap: 1%;
+    background-color: #e2cf69;
+}
+
+footer {
+    padding: 1em;
+    font-size: 2em;
+}
+
+button {
+    padding: 0.35em;
+    text-align: center;
+    border: solid;
+    border-color: bisque;
+    border-radius: 0.5em;
+    background-color: #8ee4af;
+    font-size: 5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+}
+
+.operator {
+    background-color: #e8a876;
+}
+
+.display {
+    background-color: #edf5e1;
+}
+
+.equals {
+    background-color: #5bbcc9;
+}
