@@ -90,6 +90,10 @@ button {
     margin-bottom: 0.15em;
 }
 
+button:hover {
+    border: black solid;
+}
+
 .operator {
     background-color: #e8a876;
 }
